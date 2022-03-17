@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet2" msprop:Generator_UserDSName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_vacunacion" msprop:Generator_ColumnVarNameInTable="columnid_vacunacion" msprop:Generator_ColumnPropNameInRow="id_vacunacion" msprop:Generator_ColumnPropNameInTable="id_vacunacionColumn" msprop:Generator_UserColumnName="id_vacunacion" type="xs:string" minOccurs="0" />
+              <xs:element name="id_paciente" msprop:Generator_ColumnVarNameInTable="columnid_paciente" msprop:Generator_ColumnPropNameInRow="id_paciente" msprop:Generator_ColumnPropNameInTable="id_pacienteColumn" msprop:Generator_UserColumnName="id_paciente" type="xs:string" minOccurs="0" />
+              <xs:element name="id_unidad" msprop:Generator_ColumnVarNameInTable="columnid_unidad" msprop:Generator_ColumnPropNameInRow="id_unidad" msprop:Generator_ColumnPropNameInTable="id_unidadColumn" msprop:Generator_UserColumnName="id_unidad" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha_vacunacion" msprop:Generator_ColumnVarNameInTable="columnfecha_vacunacion" msprop:Generator_ColumnPropNameInRow="fecha_vacunacion" msprop:Generator_ColumnPropNameInTable="fecha_vacunacionColumn" msprop:Generator_UserColumnName="fecha_vacunacion" type="xs:string" minOccurs="0" />
+              <xs:element name="edad_vacunacion" msprop:Generator_ColumnVarNameInTable="columnedad_vacunacion" msprop:Generator_ColumnPropNameInRow="edad_vacunacion" msprop:Generator_ColumnPropNameInTable="edad_vacunacionColumn" msprop:Generator_UserColumnName="edad_vacunacion" type="xs:string" minOccurs="0" />
+              <xs:element name="id_vacuna" msprop:Generator_ColumnVarNameInTable="columnid_vacuna" msprop:Generator_ColumnPropNameInRow="id_vacuna" msprop:Generator_ColumnPropNameInTable="id_vacunaColumn" msprop:Generator_UserColumnName="id_vacuna" type="xs:string" minOccurs="0" />
+              <xs:element name="estrategia" msprop:Generator_ColumnVarNameInTable="columnestrategia" msprop:Generator_ColumnPropNameInRow="estrategia" msprop:Generator_ColumnPropNameInTable="estrategiaColumn" msprop:Generator_UserColumnName="estrategia" type="xs:string" minOccurs="0" />
+              <xs:element name="id_lote" msprop:Generator_ColumnVarNameInTable="columnid_lote" msprop:Generator_ColumnPropNameInRow="id_lote" msprop:Generator_ColumnPropNameInTable="id_loteColumn" msprop:Generator_UserColumnName="id_lote" type="xs:string" minOccurs="0" />
+              <xs:element name="dosis_aplicada" msprop:Generator_ColumnVarNameInTable="columndosis_aplicada" msprop:Generator_ColumnPropNameInRow="dosis_aplicada" msprop:Generator_ColumnPropNameInTable="dosis_aplicadaColumn" msprop:Generator_UserColumnName="dosis_aplicada" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha_segunda_dosis" msprop:Generator_ColumnVarNameInTable="columnfecha_segunda_dosis" msprop:Generator_ColumnPropNameInRow="fecha_segunda_dosis" msprop:Generator_ColumnPropNameInTable="fecha_segunda_dosisColumn" msprop:Generator_UserColumnName="fecha_segunda_dosis" type="xs:string" minOccurs="0" />
+              <xs:element name="vacunador" msprop:Generator_ColumnVarNameInTable="columnvacunador" msprop:Generator_ColumnPropNameInRow="vacunador" msprop:Generator_ColumnPropNameInTable="vacunadorColumn" msprop:Generator_UserColumnName="vacunador" type="xs:string" minOccurs="0" />
+              <xs:element name="supervisor" msprop:Generator_ColumnVarNameInTable="columnsupervisor" msprop:Generator_ColumnPropNameInRow="supervisor" msprop:Generator_ColumnPropNameInTable="supervisorColumn" msprop:Generator_UserColumnName="supervisor" type="xs:string" minOccurs="0" />
+              <xs:element name="nombre_vacuna" msprop:Generator_ColumnVarNameInTable="columnnombre_vacuna" msprop:Generator_ColumnPropNameInRow="nombre_vacuna" msprop:Generator_ColumnPropNameInTable="nombre_vacunaColumn" msprop:Generator_UserColumnName="nombre_vacuna" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

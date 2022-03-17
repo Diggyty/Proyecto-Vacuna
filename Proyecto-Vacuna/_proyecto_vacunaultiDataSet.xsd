@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="_proyecto_vacunaultiDataSet" targetNamespace="http://tempuri.org/_proyecto_vacunaultiDataSet.xsd" xmlns:mstns="http://tempuri.org/_proyecto_vacunaultiDataSet.xsd" xmlns="http://tempuri.org/_proyecto_vacunaultiDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="proyecto_vacunaultiConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="proyecto_vacunaultiConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Proyecto_Vacuna.Properties.Settings.GlobalReference.Default.proyecto_vacunaultiConnectionString1" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="loteTableAdapter" GeneratorDataComponentClassName="loteTableAdapter" Name="lote" UserDataComponentName="loteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="proyecto_vacunaultiConnectionString1 (Settings)" DbObjectName="`proyecto-vacunaulti`.lote" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id_lote`, `id_vacuna`, `id_silais`, `fecha_entrada`, `cantidad`, `fecha_autorizacion`, `fecha_vencimiento`, `total` FROM `lote`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="_proyecto_vacunaultiDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="_proyecto_vacunaultiDataSet" msprop:Generator_UserDSName="_proyecto_vacunaultiDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="lote" msprop:Generator_TableClassName="loteDataTable" msprop:Generator_TableVarName="tablelote" msprop:Generator_TablePropName="lote" msprop:Generator_RowDeletingName="loteRowDeleting" msprop:Generator_RowChangingName="loteRowChanging" msprop:Generator_RowEvHandlerName="loteRowChangeEventHandler" msprop:Generator_RowDeletedName="loteRowDeleted" msprop:Generator_UserTableName="lote" msprop:Generator_RowChangedName="loteRowChanged" msprop:Generator_RowEvArgName="loteRowChangeEvent" msprop:Generator_RowClassName="loteRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
