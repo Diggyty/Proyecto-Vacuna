@@ -43,7 +43,7 @@ namespace Proyecto_Vacuna
         private void guna2Button1_Click(object sender, EventArgs e)
         {
 
-            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; user id = root; password = root; persistsecurityinfo = True; database = proyecto-vacunaulti");
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; user id = root; password = root; persistsecurityinfo = True; database = proyecto vacuna");
             DataTable dt = new DataTable();
             MySqlDataAdapter da = new MySqlDataAdapter("Select * from vistavacunaciones", conexion);
             da.Fill(dt);

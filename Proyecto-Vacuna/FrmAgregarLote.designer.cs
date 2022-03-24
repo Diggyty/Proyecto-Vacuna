@@ -93,7 +93,7 @@
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
             this.guna2Button5.HoverState.Parent = this.guna2Button5;
-            this.guna2Button5.Location = new System.Drawing.Point(229, 360);
+            this.guna2Button5.Location = new System.Drawing.Point(245, 302);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
             this.guna2Button5.Size = new System.Drawing.Size(140, 29);
@@ -108,7 +108,7 @@
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
             this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Location = new System.Drawing.Point(135, 296);
+            this.guna2Button4.Location = new System.Drawing.Point(245, 267);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
             this.guna2Button4.Size = new System.Drawing.Size(140, 29);
@@ -123,7 +123,7 @@
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(17, 242);
+            this.guna2Button2.Location = new System.Drawing.Point(245, 232);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
             this.guna2Button2.Size = new System.Drawing.Size(140, 29);
@@ -151,7 +151,7 @@
             this.FechaVencimiento.ForeColor = System.Drawing.Color.Black;
             this.FechaVencimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.FechaVencimiento.HoverState.Parent = this.FechaVencimiento;
-            this.FechaVencimiento.Location = new System.Drawing.Point(135, 195);
+            this.FechaVencimiento.Location = new System.Drawing.Point(151, 203);
             this.FechaVencimiento.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.FechaVencimiento.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.FechaVencimiento.Name = "FechaVencimiento";
@@ -166,7 +166,7 @@
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(3, 203);
+            this.label3.Location = new System.Drawing.Point(5, 209);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 17);
             this.label3.TabIndex = 23;
@@ -201,7 +201,7 @@
             this.FechaEntrada.ForeColor = System.Drawing.Color.Black;
             this.FechaEntrada.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.FechaEntrada.HoverState.Parent = this.FechaEntrada;
-            this.FechaEntrada.Location = new System.Drawing.Point(135, 166);
+            this.FechaEntrada.Location = new System.Drawing.Point(151, 166);
             this.FechaEntrada.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.FechaEntrada.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.FechaEntrada.Name = "FechaEntrada";
@@ -229,7 +229,7 @@
             this.CbxVacuna.Items.AddRange(new object[] {
             "Cédula",
             "Pasaporte"});
-            this.CbxVacuna.Location = new System.Drawing.Point(153, 48);
+            this.CbxVacuna.Location = new System.Drawing.Point(151, 48);
             this.CbxVacuna.Name = "CbxVacuna";
             this.CbxVacuna.Size = new System.Drawing.Size(234, 23);
             this.CbxVacuna.TabIndex = 18;
