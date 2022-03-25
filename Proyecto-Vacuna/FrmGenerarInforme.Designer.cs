@@ -40,7 +40,7 @@ namespace Proyecto_Vacuna
             // reportViewer1
             // 
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "Proyecto_Vacuna.reportes.GeneradorInformes.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(198, 0);
+            this.reportViewer1.Location = new System.Drawing.Point(209, 1);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
             this.reportViewer1.Size = new System.Drawing.Size(771, 523);
